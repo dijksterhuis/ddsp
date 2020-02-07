@@ -47,7 +47,7 @@ setuptools.setup(
         'numpy',
         'scipy',
         'six',
-        'tensorflow',
+        'tensorflow-gpu==2.10',
         # TODO(adarob): Switch to tensorflow_datasets once includes nsynth 2.3.
         'tfds-nightly',
     ],
